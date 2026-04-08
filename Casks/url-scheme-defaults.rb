@@ -7,7 +7,7 @@ cask "url-scheme-defaults" do
   desc "Change the default macOS application for a given URL scheme (http:, feed:, etc.)."
   homepage "https://github.com/relikd/URL-Scheme-Defaults"
 
-  depends_on macos: ">= :yosemite"
+  depends_on :macos # macos: ">= :yosemite"
 
   app "URL Scheme Defaults.app"
 end

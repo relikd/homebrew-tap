@@ -7,7 +7,7 @@ cask "darker" do
   desc "Darker allows you to dim your screen beyond the last screen brightness beam."
   homepage "https://github.com/relikd/Darker"
 
-  depends_on macos: ">= :yosemite"
+  depends_on :macos # macos: ">= :yosemite"
 
   app "Darker.app"
 

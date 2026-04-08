@@ -7,7 +7,7 @@ cask "barss" do
   desc "Menu Bar RSS Reader"
   homepage "https://github.com/relikd/baRSS"
 
-  depends_on macos: ">= :high_sierra"
+  depends_on :macos # macos: ">= :high_sierra"
 
   app "baRSS.app"
 

@@ -7,7 +7,7 @@ cask "memmon" do
   desc "A simple deamon that restores your window positions on external monitors."
   homepage "https://github.com/relikd/Memmon"
 
-  depends_on macos: ">= :yosemite"
+  depends_on :macos # macos: ">= :yosemite"
 
   app "Memmon.app"
   
