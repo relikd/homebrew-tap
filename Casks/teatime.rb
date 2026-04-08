@@ -7,7 +7,7 @@ cask "teatime" do
   desc "Prevent your Mac from sleeping (as long as the app runs). A wrapper around caffeinate."
   homepage "https://github.com/relikd/TeaTime"
 
-  depends_on :macos # macos: ">= :high_sierra"
+  depends_on macos: ">= :catalina" # actually :high_sierra
 
   app "TeaTime.app"
 end
