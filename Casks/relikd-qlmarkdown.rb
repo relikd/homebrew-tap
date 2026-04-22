@@ -1,6 +1,6 @@
 cask "relikd-qlmarkdown" do
-  version "0.9.2"
-  sha256 "ac62b35864057d31f85c7d828f9eda1707cd657fe5a6a102617a3a02010fb6eb"
+  version "1.0.0"
+  sha256 "761b73ad714235c1d6965fe1c67d2d790a300f28a8d00ff204ab500e7bbc306f"
 
   url "https://github.com/relikd/QLMarkdown/releases/download/v#{version}/QLMarkdown_#{version}.zip"
   name "QLMarkdown"
