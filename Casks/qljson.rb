@@ -1,6 +1,6 @@
 cask "qljson" do
-  version "1.1.0"
-  sha256 "afcb1a7ddedc03d9fc1d934b5a779a054e71481cfb04206be2260054c996a6f1"
+  version "1.2.0"
+  sha256 "251a33a94f84915ea1b40f7f868a7e8d33187d4acea8ba2fc4efe5c1701bd619"
 
   url "https://github.com/relikd/QLJSON/releases/download/v#{version}/QLJSON_#{version}.zip"
   name "QLJSON"
