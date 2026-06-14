@@ -7,7 +7,7 @@ cask "qlarchives" do
   desc "QuickLook plugin for archive formats (tar, zip, rar, 7z, etc.)"
   homepage "https://github.com/relikd/QLArchives"
 
-  depends_on macos: ">= :catalina"
+  depends_on macos: :catalina
 
   app "QLArchives.app"
 
