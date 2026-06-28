@@ -7,7 +7,7 @@ cask "open-with-quicklook" do
   desc " Open files with Quick Look (by double clicking)."
   homepage "https://github.com/relikd/OpenQL"
 
-  depends_on macos: ">= :catalina"
+  depends_on macos: :catalina
 
   app "Open With Quick Look.app"
 

@@ -7,7 +7,7 @@ cask "qljson" do
   desc "QuickLook plugin for JSON files (with foldable structures)."
   homepage "https://github.com/relikd/QLJSON"
 
-  depends_on macos: ">= :catalina"
+  depends_on macos: :catalina
 
   app "QLJSON.app"
 

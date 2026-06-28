@@ -7,7 +7,7 @@ cask "qlasciicast" do
   desc "QuickLook plugin for .cast recording files (asciinema, termsvg). "
   homepage "https://github.com/relikd/QLAsciicast"
 
-  depends_on macos: ">= :catalina"
+  depends_on macos: :catalina
 
   app "QLAsciicast.app"
 

@@ -7,7 +7,7 @@ cask "menuscript" do
   desc "A menu bar script executor for custom script files."
   homepage "https://github.com/relikd/Menuscript"
 
-  depends_on macos: ">= :catalina" # actually :high_sierra
+  depends_on macos: :catalina # actually :high_sierra
 
   app "Menuscript.app"
 

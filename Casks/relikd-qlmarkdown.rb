@@ -7,7 +7,7 @@ cask "relikd-qlmarkdown" do
   desc "Just a stupidly simple QuickLook plugin for Markdown files."
   homepage "https://github.com/relikd/QLMarkdown"
 
-  depends_on macos: ">= :catalina"
+  depends_on macos: :catalina
 
   app "QLMarkdown.app"
 
