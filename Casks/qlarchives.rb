@@ -1,6 +1,6 @@
 cask "qlarchives" do
-  version "1.4.0"
-  sha256 "b4eccf28041ce16aeadc972b1118b5528c5d784bdc9bb006c9652eac26d3b1b9"
+  version "1.5.0"
+  sha256 "7b474d859a6d9e5f03c417281c63b72a8e616defad84d897777f56768eeaf144"
 
   url "https://github.com/relikd/QLArchives/releases/download/v#{version}/QLArchives_#{version}.zip"
   name "QLArchives"
